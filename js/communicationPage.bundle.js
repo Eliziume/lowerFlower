@@ -1,0 +1,1 @@
+ymaps.ready(function(){var e=new ymaps.Map("map",{center:[53.925269,27.508175],zoom:14});myGeoObject=new ymaps.GeoObject({geometry:{type:"Point",coordinates:[53.925269,27.508175]},properties:{iconContent:"улица Тимирязева, 67",hintContent:"улица Тимирязева, 67, Минск"}},{preset:"islands#blueHomeIcon",draggable:!1}),e.geoObjects.add(myGeoObject),e.setType("yandex#hybrid")});
